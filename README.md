@@ -1,0 +1,1 @@
+Live 3D globe of global hazards (typhoons, wildfires, quakes, rain, snow, El Niño), plus historical climate trend analysis. Built with React and Python FastAPI, using data from NASA EONET, USGS, Open-Meteo, and NOAA.
