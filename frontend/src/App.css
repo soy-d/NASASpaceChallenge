@@ -1,0 +1,60 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; }
+html, body, #root { margin: 0; height: 100%; background: #020617; color: #e2e8f0; }
+.shell { display: flex; flex-direction: column; height: 100%; }
+.topbar { display: flex; align-items: center; gap: 8px; padding: 8px 16px; background: #0f172a; border-bottom: 1px solid #1e293b; }
+.topbar b { margin-right: 16px; }
+.topbar button, .tabs button, .chips button { background: #1e293b; color: #e2e8f0; border: 1px solid #334155; border-radius: 6px; padding: 5px 12px; cursor: pointer; }
+.topbar button.on, .tabs button.on { background: #0369a1; border-color: #0ea5e9; }
+.app { display: grid; grid-template-columns: 1fr 340px; flex: 1; min-height: 0; }
+.globe-box { position: relative; overflow: hidden; min-width: 0; min-height: 0; }
+.sidebar { padding: 16px; overflow-y: auto; background: #0f172a; border-left: 1px solid #1e293b; }
+.sidebar h1 { font-size: 1.1rem; margin: 0 0 8px; }
+.sidebar h2 { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: #94a3b8; margin: 18px 0 8px; }
+.pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.8rem; background: #334155; }
+.pill.live { background: #166534; }
+.pill.reconnecting { background: #92400e; }
+.muted { color: #94a3b8; }
+.small { font-size: 0.78rem; }
+.stat { display: flex; justify-content: space-between; margin: 6px 0; }
+.layer, .source { display: flex; align-items: center; gap: 8px; padding: 3px 0; font-size: 0.9rem; cursor: pointer; }
+.source { cursor: default; }
+.grow { flex: 1; }
+.count { font-variant-numeric: tabular-nums; color: #94a3b8; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: #64748b; flex: none; }
+.dot.ok { background: #22c55e; }
+.dot.error { background: #ef4444; }
+.tip { padding: 4px 6px; font-size: 12px; }
+@media (max-width: 800px) {
+  .app { grid-template-columns: 1fr; grid-template-rows: 55vh 1fr; }
+  .sidebar { border-left: 0; border-top: 1px solid #1e293b; }
+}
+
+.sidebar h1 { display: none; }
+.analysis { display: grid; grid-template-columns: 400px 1fr; flex: 1; min-height: 0; }
+.analysis-controls { padding: 14px; overflow-y: auto; background: #0f172a; border-right: 1px solid #1e293b; }
+.analysis-controls h2 { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: #94a3b8; margin: 16px 0 8px; }
+.analysis-results { padding: 16px; overflow-y: auto; }
+.map { width: 100%; border-radius: 8px; cursor: crosshair; display: block; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chips button { font-size: 0.75rem; padding: 3px 8px; }
+.tabs { display: flex; gap: 6px; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; font-size: 0.85rem; }
+select { background: #1e293b; color: #e2e8f0; border: 1px solid #334155; border-radius: 6px; padding: 3px 6px; }
+.primary { margin-top: 14px; width: 100%; padding: 9px; background: #0ea5e9; color: #04111f; border: 0; border-radius: 6px; font-weight: 600; cursor: pointer; }
+.primary:disabled { opacity: 0.5; cursor: not-allowed; }
+.error { margin-top: 10px; padding: 8px; background: #450a0a; border: 1px solid #991b1b; border-radius: 6px; font-size: 0.85rem; }
+.card { background: #0f172a; border: 1px solid #1e293b; border-radius: 10px; padding: 12px 14px; margin: 12px 0; }
+.card h3 { margin: 0 0 8px; font-size: 1rem; display: flex; align-items: center; gap: 8px; }
+.card-body { display: grid; grid-template-columns: minmax(0, 1fr) 210px; gap: 14px; align-items: start; }
+.chart { width: 100%; height: auto; }
+.axis { fill: #94a3b8; font-size: 10px; }
+.stats { width: 100%; font-size: 0.8rem; border-collapse: collapse; }
+.stats td { padding: 2px 0; border-bottom: 1px solid #1e293b; }
+.stats td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+.verdict { padding: 4px 8px; border-radius: 6px; font-size: 0.8rem; margin-bottom: 6px; background: #334155; }
+.verdict.increasing { background: #7f1d1d; }
+.verdict.decreasing { background: #1e3a8a; }
+@media (max-width: 900px) {
+  .analysis { grid-template-columns: 1fr; }
+  .card-body { grid-template-columns: 1fr; }
+}
