@@ -1,3 +1,4 @@
+# Trend statistics utilities for OLS, Sen's slope, and Mann-Kendall tests.
 """Trend statistics (pure Python, no scipy): OLS, Sen's slope, Mann-Kendall."""
 import math
 from itertools import combinations

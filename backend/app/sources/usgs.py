@@ -1,3 +1,4 @@
+# USGS earthquake and tsunami source for geophysical live events.
 """USGS earthquakes (last 2.5 days) and USGS tsunami flags."""
 from datetime import datetime, timezone
 

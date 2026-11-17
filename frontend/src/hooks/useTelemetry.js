@@ -1,3 +1,4 @@
+// React hook that subscribes to the backend SSE stream and tracks the current live snapshot.
 import { useEffect, useState } from 'react'
 
 import { API } from '../api.js'

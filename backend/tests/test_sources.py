@@ -1,3 +1,4 @@
+# Unit tests that validate source parsing logic without hitting external APIs.
 """Offline tests: parsers run against sample API payloads, no network needed.
 Run from the backend folder:  python -m pytest
 """

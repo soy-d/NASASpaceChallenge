@@ -1,3 +1,4 @@
+# Shared Pydantic models used throughout the backend to normalize hazard data.
 """Shared data models for every hazard the dashboard can show."""
 from enum import Enum
 from typing import Optional

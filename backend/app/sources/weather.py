@@ -1,3 +1,4 @@
+# Open-Meteo weather source for the current global temperature and precipitation grid.
 """Open-Meteo: temperature, rain and snow sampled on a global grid.
 
 Open-Meteo has no "where is it raining right now" endpoint, so we sample a

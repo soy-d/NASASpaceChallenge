@@ -1,3 +1,4 @@
+# TelemetryHub keeps every source in a background poll loop and fans out snapshots to SSE subscribers.
 """TelemetryHub: polls every source on its own schedule and fans out snapshots.
 
 One background task per source, so a slow or broken API never blocks the

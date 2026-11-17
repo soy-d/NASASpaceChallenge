@@ -1,3 +1,4 @@
+// App shell that chooses the live globe or analysis dashboard and manages layer visibility.
 import { useMemo, useState } from 'react'
 import GlobeView from './components/GlobeView.jsx'
 import Sidebar from './components/Sidebar.jsx'

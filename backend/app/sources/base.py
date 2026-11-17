@@ -1,3 +1,4 @@
+# Base contract for all remote data providers that feed the live global telemetry stream.
 """Abstract base class that every data source implements."""
 from abc import ABC, abstractmethod
 

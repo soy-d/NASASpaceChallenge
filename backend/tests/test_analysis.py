@@ -1,3 +1,4 @@
+# Unit tests for historical climate binning and trend-statistics logic.
 """Offline tests for the trend statistics and archive binning."""
 import math
 from datetime import date, timedelta

@@ -1,3 +1,4 @@
+// Small wrapper for backend API calls used by the React app.
 export const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
 
 export async function getJson(path, params) {

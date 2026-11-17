@@ -1,3 +1,4 @@
+# FastAPI application bootstrap for the Earth System Trend Detective backend.
 import asyncio
 import json
 import os
