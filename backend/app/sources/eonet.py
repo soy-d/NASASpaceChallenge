@@ -1,3 +1,4 @@
+# NASA EONET source for storm, wildfire, volcano, and sea-ice hazard events.
 """NASA EONET: typhoons, wildfires, volcanoes and sea/lake ice."""
 from typing import Optional
 

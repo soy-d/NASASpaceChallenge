@@ -1,3 +1,4 @@
+// Interactive globe using react-globe.gl, with pulsing rings and point tooltips for events.
 import { useEffect, useMemo, useRef, useState } from 'react'
 import Globe from 'react-globe.gl'
 import { LAYERS, colorFor, escapeHtml } from '../layers.js'

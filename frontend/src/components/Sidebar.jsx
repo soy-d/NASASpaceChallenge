@@ -1,3 +1,4 @@
+// Sidebar shows climate summaries, toggles, and live source status for the globe view.
 import { ENSO_COLORS, LAYERS } from '../layers.js'
 
 const STATUS_TEXT = { connecting: 'Connecting…', live: 'Live', reconnecting: 'Reconnecting…' }

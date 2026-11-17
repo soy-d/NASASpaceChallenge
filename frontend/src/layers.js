@@ -1,4 +1,4 @@
-// One entry per hazard type: label, colour, and how it is drawn on the globe.
+// Layer definitions for hazard markers: label, colour, size, altitude, and ring behavior.
 export const LAYERS = {
   typhoon:     { label: 'Typhoons / storms', color: '#38bdf8', radius: 0.9, altitude: 0.04, rings: true },
   wildfire:    { label: 'Wildfires',         color: '#f97316', radius: 0.35, altitude: 0.02 },

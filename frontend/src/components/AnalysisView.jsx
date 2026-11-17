@@ -1,3 +1,4 @@
+// Historical analysis view that fetches archive and ENSO data from the backend and renders charts.
 import { useCallback, useEffect, useState } from 'react'
 import { getJson } from '../api.js'
 import WorldPinpointMap from './WorldPinpointMap.jsx'

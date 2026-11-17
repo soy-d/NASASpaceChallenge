@@ -1,3 +1,4 @@
+# REST endpoints for the historical climate analysis dashboard views.
 """REST endpoints for the past-data analysis part of the dashboard."""
 import time
 from datetime import datetime, timezone

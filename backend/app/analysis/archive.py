@@ -1,3 +1,4 @@
+# Historical archive service for ERA5 climate data and trend analysis.
 """Past-climate data from the Open-Meteo ERA5 archive, binned and analysed.
 
 Failures raise an error; this service never substitutes generated data.

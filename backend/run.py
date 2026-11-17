@@ -1,3 +1,4 @@
+# Backend entry point: loads the environment and starts the FastAPI app with Uvicorn.
 import os
 import sys
 from pathlib import Path
